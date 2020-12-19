@@ -1,8 +1,5 @@
-
 import UIKit
-//HTTP通信してくれるやつ
 import Alamofire
-//スクレイピングしてくれるやつ
 import Kanna
 
 class GyudonPriceTableViewController: UITableViewController {
