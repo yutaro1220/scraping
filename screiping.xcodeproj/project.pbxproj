@@ -10,11 +10,11 @@
 		4375C9D38AA13FBDE9007FB3 /* Pods_screiping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F783DD14E1E4CEDBF7161662 /* Pods_screiping.framework */; };
 		5F59376C2588EB9F00C0A66F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F59376B2588EB9F00C0A66F /* AppDelegate.swift */; };
 		5F59376E2588EB9F00C0A66F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F59376D2588EB9F00C0A66F /* SceneDelegate.swift */; };
-		5F5937702588EB9F00C0A66F /* nk225TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F59376F2588EB9F00C0A66F /* nk225TableViewController.swift */; };
+		5F5937702588EB9F00C0A66F /* GyudonPriceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F59376F2588EB9F00C0A66F /* GyudonPriceTableViewController.swift */; };
 		5F5937732588EB9F00C0A66F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5937712588EB9F00C0A66F /* Main.storyboard */; };
 		5F5937752588EBA300C0A66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F5937742588EBA300C0A66F /* Assets.xcassets */; };
 		5F5937782588EBA300C0A66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5937762588EBA300C0A66F /* LaunchScreen.storyboard */; };
-		5F593786258904F700C0A66F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F593785258904F700C0A66F /* File.swift */; };
+		5FAF597B258D34F10060918D /* Gyudon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF597A258D34F10060918D /* Gyudon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +22,12 @@
 		5F5937682588EB9F00C0A66F /* screiping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = screiping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F59376B2588EB9F00C0A66F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F59376D2588EB9F00C0A66F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F59376F2588EB9F00C0A66F /* nk225TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nk225TableViewController.swift; sourceTree = "<group>"; };
+		5F59376F2588EB9F00C0A66F /* GyudonPriceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyudonPriceTableViewController.swift; sourceTree = "<group>"; };
 		5F5937722588EB9F00C0A66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F5937742588EBA300C0A66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F5937772588EBA300C0A66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F5937792588EBA300C0A66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F593785258904F700C0A66F /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		5FAF597A258D34F10060918D /* Gyudon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gyudon.swift; sourceTree = "<group>"; };
 		740B88A94B2F7E125FE0616D /* Pods-screiping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-screiping.release.xcconfig"; path = "Target Support Files/Pods-screiping/Pods-screiping.release.xcconfig"; sourceTree = "<group>"; };
 		F783DD14E1E4CEDBF7161662 /* Pods_screiping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_screiping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,10 +74,10 @@
 		5F59376A2588EB9F00C0A66F /* screiping */ = {
 			isa = PBXGroup;
 			children = (
-				5F593785258904F700C0A66F /* File.swift */,
 				5F59376B2588EB9F00C0A66F /* AppDelegate.swift */,
 				5F59376D2588EB9F00C0A66F /* SceneDelegate.swift */,
-				5F59376F2588EB9F00C0A66F /* nk225TableViewController.swift */,
+				5F59376F2588EB9F00C0A66F /* GyudonPriceTableViewController.swift */,
+				5FAF597A258D34F10060918D /* Gyudon.swift */,
 				5F5937712588EB9F00C0A66F /* Main.storyboard */,
 				5F5937742588EBA300C0A66F /* Assets.xcassets */,
 				5F5937762588EBA300C0A66F /* LaunchScreen.storyboard */,
@@ -208,8 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F5937702588EB9F00C0A66F /* nk225TableViewController.swift in Sources */,
-				5F593786258904F700C0A66F /* File.swift in Sources */,
+				5FAF597B258D34F10060918D /* Gyudon.swift in Sources */,
+				5F5937702588EB9F00C0A66F /* GyudonPriceTableViewController.swift in Sources */,
 				5F59376C2588EB9F00C0A66F /* AppDelegate.swift in Sources */,
 				5F59376E2588EB9F00C0A66F /* SceneDelegate.swift in Sources */,
 			);
